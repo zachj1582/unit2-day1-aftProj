@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    height: 180vh;
+    position: relative;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbox1 {
+    color: white;
+    border: .5px darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbox2 {
+    color: white;
+    border: .5px darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-size-adjust: 8px;
+}
+
+.scrolling-pics-box {
+    background-image: url(https://fsmedia.imgix.net/e3/c6/c9/47/1efc/4de2/993e/9e3009ee195e/hurleybehnkenglover-andhopkins-line-up.jpeg?auto=format%2Ccompress&dpr=2&w=650);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.transparent-black-box {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    opacity: .6;
+    display: flex;
+    align-items: flex-end;
+}
+
+.font {
+    color: white;
+}
+.script {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.blackbox {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.silver-box {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bottom-white-box {
+    background-color: white;
+    height: 40vh;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reusability {
+    height: 250px;
+    width: 250px;
+    box-shadow: 3px 3px 5px lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.commercial-crew {
+    height: 250px;
+    width: 250px;
+    box-shadow: 3px 3px 5px lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.making-life {
+    height: 250px;
+    width: 250px;
+    box-shadow: 3px 3px 5px lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic {
+    height: 125px;
+    width: 230px;
+}
+
+.footer {
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    padding-left: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text {
+    height: 75px;
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
